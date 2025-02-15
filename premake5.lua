@@ -1,4 +1,4 @@
-project "ImGUi"
+project "ImGui"
     kind "StaticLib"
     language "C++"
 
@@ -26,4 +26,4 @@ project "ImGUi"
     staticruntime "On"
 
     filter { "system:windows", "configurations:Release" }
-        buildoptions "/MT"
+        buildoptions { "/MT", "/utf-8" }
