@@ -3,7 +3,7 @@ project "ImGui"
     language "C++"
 
     targetdir ("Binaries/" .. outputdir .. "/%{prj.name}")
-    objdir ("Binaries/" .. outputdir .. "/%{prj.name}")
+    objdir ("Intermediate/" .. outputdir .. "/%{prj.name}")
 
     files
     {
