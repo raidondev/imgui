@@ -23,7 +23,7 @@ project "ImGui"
     filter "system:windows"
     systemversion "latest"
     cppdialect "C++20"
-    staticruntime "On"
+    staticruntime "on"
 
     filter { "system:windows", "configurations:Release" }
         buildoptions { "/MT", "/utf-8" }
