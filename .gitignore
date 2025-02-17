@@ -62,3 +62,14 @@ examples/example_sdl2_metal/example_sdl2_metal
 examples/example_sdl2_opengl2/example_sdl2_opengl2
 examples/example_sdl2_opengl3/example_sdl2_opengl3
 examples/example_sdl2_sdlrenderer/example_sdl2_sdlrenderer
+
+##################################
+#    NYX ENGINE MODIFICATIONS    #
+##################################
+# Directories
+Binaries/
+Intermediate/
+
+# Visual Studio files and folder
+*.sln
+*.vcxproj*
